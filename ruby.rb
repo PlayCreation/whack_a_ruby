@@ -37,4 +37,8 @@ class Ruby
   def visible?
     @visible
   end
+
+  def visible=(value)
+    @visible = value
+  end
 end
