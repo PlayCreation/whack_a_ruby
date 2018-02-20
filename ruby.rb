@@ -35,7 +35,7 @@ class Ruby
   end
 
   def visible?
-    @visible
+    @visible >= 0
   end
 
   def visible=(value)
