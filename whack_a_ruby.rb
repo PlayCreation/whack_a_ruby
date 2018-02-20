@@ -61,7 +61,7 @@ class WhackARuby < Gosu::Window
       @playing = true
       @ruby.visible = -10
       @start_time = Gosu.milliseconds
-      @score = 0
+      @scoreboard = Scoreboard.new
     end
   end
 
